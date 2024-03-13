@@ -1,0 +1,499 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+    font-family: "lato", sans-serif;
+}
+
+.home header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    /* position: fixed; */
+}
+
+header ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 16.6px 24px;
+}
+
+header ul li a:hover {
+    background-color: #ccc;
+}
+
+.home header ul li {
+    list-style: none;
+}
+
+.home header ul {
+    display: flex;
+}
+
+.home header p {
+    padding: 16.5px 24px;
+    cursor: pointer
+}
+
+.home header p:hover {
+    background-color: red;
+}
+
+header ul li{
+    color: white;
+    font-size: 15px;
+    list-style: none;
+    display: inline;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 16.6px 24px;
+}
+
+header ul li a:hover{
+    background-color: #ccc;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+.home header ul .dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.home header ul  .dropdown .dropdowncontent{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    line-height: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.home header ul .dropdowncontent a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+  
+.home header ul .dropdowncontent a:hover{
+    background-color: #ccc;
+}
+
+.home header ul .dropdown .more {
+    padding: 16.6px 24px;
+}
+  
+.home header ul .dropdown:hover .more {
+    background-color: #ccc;
+}
+  
+.home header ul .dropdowncontent a {
+    background-color: white
+}
+
+header ul .dropdown:hover .dropdowncontent {
+    display: block;
+}
+
+.chicago {
+    background: url(pic/ny.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.chicago{
+    position: relative;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.chicago .york  {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.chicago .york p {
+    margin-bottom: 20px;
+}
+/* 
+.new{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    left: 600px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.new {
+    font-weight: 700;
+} */
+
+.theband {
+    position:relative ;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.theband .band {
+    font-size: 25px;
+    font-weight:1190;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.theband .music {
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.theband .lorem {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.picture {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.picture .name p {
+    font-size: 13px;
+}
+
+.picture .name img{
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.tour .tourdate {
+    text-align: center;
+    line-height: 50px;
+}
+
+.tour .tourdate h6{
+    text-align: center;
+    font-size: 30px;
+    font-weight:400;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.tour .tourdate p{
+    color: rgb(92, 92, 102);
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.table {
+    /* border: 1px solid grey; */
+    /* border-collapse: collapse; */
+    width: 100%;
+    line-height: 40px;
+    /* margin-left: 25%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.table col {
+    background-color: white;
+}
+
+.table table td {
+    padding-left: 20px;
+    width: 750px;
+    /* border: 1px solid gray; */
+    color: gray;
+    font-size: 15px; 
+}
+
+.table tr td span {
+    background-color: rgb(253, 70, 70);
+    margin-left: 5%;
+    color: white;
+    padding: 3px 10px;
+}
+
+.table tr td .three{
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 80%;
+    padding: 3px 7px;
+}
+
+.tour {
+    background-color: black;
+    padding: 100px 0%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour .place {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 25%; */
+    margin-top: 30px;
+    gap: 16px;
+    width: 90%;
+}
+
+.tour .place .country .city{
+    background-color: white;
+}
+
+.city h4{
+    padding-top: 10px;
+}
+
+.tour .place .country img {
+    width: 100%;
+}
+
+.place .country img:hover{
+    opacity: 0.5;
+}
+
+.tour .place .country .city {
+    margin-top: -3px;
+    padding-left: 10px;
+}
+
+.post{
+    color: rgb(129, 148, 129);
+}
+
+.city button{
+    color: white;
+    background-color: black;
+    padding: 12px ;
+    margin-bottom: 20px;
+    border: none;
+    width: 110px;
+}
+
+.city button:hover{
+    background-color: grey;
+}
+
+.contact .tact {
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.tact h6{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.tact p {
+    color: rgb(119, 119, 124);
+    font-weight: 800;
+}
+
+.contact .usa .nam span, .contact .usa .mail span, .contact .usa .message span{
+    margin-left: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.contact .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:50px;
+}
+
+.contact .bottom .usa .nam, .contact .bottom .usa .mail {
+    margin-bottom: 15px;
+}
+
+.contact .email input{
+    padding: 4px 8px;
+    margin-bottom: 5px;
+}
+
+.contact .email .field{
+    width: 25%;
+}
+
+.contact .email .full{
+    width: 57%;
+}
+
+.contact .email .btn {
+    float: right;
+    margin-right: 37%;
+}
+
+.contact .email::placeholder {
+    padding-top: 30px;
+}
+
+.picturephoto img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.instagram p{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #817c7c;
+}
+
+.power{
+    margin-bottom: 80px;
+    text-align: center;
+    color: #777373;
+}
+
+.power p span{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:480px) {
+    .home header{
+        height: 23px;
+    }
+
+    header ul li a{
+        font-size: 10px;
+        padding: 6px 5px;
+    }
+    
+    .home header p {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+    
+    header ul li{
+        font-size: 10px;
+    }
+    
+    header ul li a{
+        padding: 6px 8px;
+    }
+    
+    .home header ul .dropdown .more {
+        padding: 6px 8px;
+    }
+
+    .theband .lorem {
+        padding: 0 5%;
+    }
+
+    .picture {
+        flex-direction: column;
+        gap:20px 5%;
+    }
+
+    .picture .name img{
+        width: 250px;
+    }
+
+    .table table{
+        padding: 0 3%;
+    }
+    
+    .table tr td .three{
+        margin-left: 70%;
+    }
+    
+    .tour .place {
+        flex-direction: column;
+    }
+    
+    .tour .place .country img {
+        width: 112%;
+        margin-left: -23px;
+    }
+    
+    .tour .place .country .city {
+        margin-top: -4px;
+        width: 109.7%;
+        margin-left: -23px;
+    }
+    
+    .contact .usa .nam span, .contact .usa .mail span, .contact .usa .message span{
+        margin-left: 20px;
+    }
+    
+    .contact .bottom{
+        flex-direction: column;
+        gap:50px;
+    }
+    
+    .contact .bottom .usa .nam, .contact .bottom .usa .mail {
+        margin-bottom: 10px;
+    }
+    
+    .contact .email input{
+        padding: 4px 8px;
+        margin-bottom: 5px;
+    }
+    
+    .contact .email .field{
+        width: 100%;
+    }
+    
+    .contact .email .full{
+        width: 100%;
+    }
+    
+    .contact .email .btn {
+        float: right;
+        margin-right: -5%;
+    }
+    
+    .contact .email::placeholder {
+        padding-top: 30px;
+    }
+}
